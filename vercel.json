@@ -1,6 +1,9 @@
 {
+  "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "routes": [
-    { "src": "/widget.js", "dest": "/public/widget.js" },
+    { "src": "/chat-widget.js", "dest": "/public/chat-widget.js" },
     { "src": "/api/chat", "dest": "/api/chat.js" },
     { "src": "/", "dest": "/public/index.html" }
   ]
