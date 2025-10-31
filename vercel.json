@@ -1,6 +1,7 @@
 {
   "routes": [
     { "src": "/widget.js", "dest": "/public/widget.js" },
-    { "src": "/api/chat", "dest": "/api/chat.js" }
+    { "src": "/api/chat", "dest": "/api/chat.js" },
+    { "src": "/", "dest": "/index.html" }
   ]
 }
