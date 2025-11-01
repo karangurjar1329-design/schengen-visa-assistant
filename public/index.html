@@ -4,29 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schengen Visa Assistant</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 80px;
       background: #ffffff;
+      color: #333;
     }
+
     h1 {
-      font-size: 28px;
       color: #0a4dad;
+      font-size: 28px;
+      margin-bottom: 10px;
     }
+
     p {
       font-size: 16px;
-      color: #333;
+      margin: 6px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #666;
     }
   </style>
 </head>
+
 <body>
   <h1>💬 Schengen Visa Assistant</h1>
   <p>This is your AI assistant running live on Vercel.</p>
   <p>Click the chat button at the bottom-right corner to test it.</p>
 
-  <!-- Chatbot Settings -->
+  <!-- Chatbot configuration -->
   <script>
     window.SVA_API_BASE = "https://schengen-visa-assistant-djtz-2mq7drj9c.vercel.app";
     window.SVA_BRAND = "Schengen Visa Assistant";
@@ -35,7 +47,9 @@
     window.SVA_BG      = "#ffffff";
   </script>
 
-  <!-- Chatbot Script -->
-  <script src="https://schengen-visa-assistant-djtz-2mq7drj9c.vercel.app/widget.js" async></script>
+  <!-- Chatbot script (renamed to widget.js) -->
+  <script src="widget.js" async></script>
+
+  <footer>© 2025 Schengen Visa Consultancy Ltd.</footer>
 </body>
 </html>
